@@ -11,14 +11,13 @@ O objetivo destes exercícios é **desenvolver a habilidade de identificar e cor
 ### Exercício 1 – Cadastro de Livro
 - **Erro:** Tag `<titulo>` não fechada.
 - **Correção:**
-```xml
+
 <livro>
   <titulo>Banco de Dados</titulo>
   <autor>Maria Oliveira</autor>
   <ano>2025</ano>
 </livro>
 
----
 
 ### Exercício 2 – cadastro de aluno
 - **Erro:** Atributos devem estar entre aspas. <idade=20></idade> está incorreto, o valor deve estar dentro da tag.
