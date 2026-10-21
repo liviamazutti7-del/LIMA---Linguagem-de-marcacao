@@ -1,0 +1,59 @@
+
+/* Estilo geral da página */
+body {
+    background-color: #121214;
+    color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    color: #A3E635;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+
+/* Subtítulos */
+h2, h3, h4 {
+    color: #A855F7;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+}
+
+/* Imagens dos produtos */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Linha divisória */
+hr {
+    border: 1px solid #A855F7;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #A855F7;
+}
+
+/* Adaptação para telas pequenas */
+@media (max-width: 600px) {
+    body {
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
