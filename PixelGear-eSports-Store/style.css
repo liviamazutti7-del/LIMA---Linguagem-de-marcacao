@@ -6,8 +6,31 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 30px;
     line-height: 1.6;
+<<<<<<< HEAD
 }
 
+=======
+    text-align: center;
+
+}
+
+/* Cor normal do botão */
+.botao {
+    background-color: #A855F7;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Cor quando o mouse passa por cima */
+.botao:hover {
+    background-color: #A3E635;
+}
+
+
+>>>>>>> 463dfb5 (atividade)
 /* Título principal */
 h1 {
     color: #A3E635;
@@ -57,3 +80,78 @@ footer {
         font-size: 30px;
     }
 }
+<<<<<<< HEAD
+=======
+
+/* Vitrine de produtos */
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1250px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+/* Cartão de cada produto */
+.produto {
+    min-width: 0;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+.produto h3 {
+    color: #b44cff;
+    font-size: 20px;
+    min-height: 48px;
+    margin-top: 0;
+}
+
+/* Imagens padronizadas */
+.produto img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Descrições */
+.produto p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Preço no final do cartão */
+.produto p:last-child {
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+/* Tablets */
+@media (max-width: 850px) {
+    .produtos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Celulares */
+@media (max-width: 550px) {
+    .produtos {
+        grid-template-columns: 1fr;
+    }
+}
+
+>>>>>>> 463dfb5 (atividade)
