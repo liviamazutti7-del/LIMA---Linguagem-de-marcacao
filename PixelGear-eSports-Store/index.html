@@ -45,8 +45,6 @@
 
     <!-- Conteúdo principal da loja -->
     <main>
-
-<<<<<<< HEAD
         <!-- Seção de produto em destaque -->
         <section>
             <h2>Produtos em Destaque</h2>
@@ -83,7 +81,6 @@
                 </p>
             </article>
         </section>
-=======
  
 <!-- Seção de produtos em destaque -->
 <section>
@@ -265,7 +262,7 @@
 </section>
 
     <hr>
-|
+
 <body>
     <h1>Tabela de Produtos PixelGear eSports store</h1>
     <table border="1">
@@ -355,7 +352,6 @@
     </table>
 </section>
 
->>>>>>> 463dfb5 (atividade)
 
         <!-- Seção sobre a empresa -->
         <section>
@@ -387,9 +383,7 @@
         </section>
 
     </main>
-<<<<<<< HEAD
 
-=======
     <div class="contato">
 
     <header>
@@ -397,6 +391,7 @@
         <p>
             Tem dúvidas ou precisa de ajuda?<br>
             Estamos aqui para ajudar!
+
         </p>
     </header>
      
@@ -411,8 +406,118 @@
     </a>
     </div>
 </div>
+
+<!-- Área de sugestões e dúvidas -->
+            <div id="area-formulario">
+
+
+                <h3>Envie sua sugestão ou dúvida</h3>
+
+
+                <form id="formulario-contato">
+
+
+                    <label for="duvidas">
+                        Sugestões e dúvidas:
+                    </label>
+
+
+                    <textarea
+                        id="duvidas"
+                        name="duvidas"
+                        placeholder="Digite aqui suas sugestões ou dúvidas..."
+                        rows="10"
+                        cols="100"
+                        required></textarea>
+
+
+                    <!-- Botão de envio -->
+                    <div class="botao-envio">
+
+
+                        <button type="submit" class="btn-enviar">
+                            Enviar mensagem
+                        </button>
+
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+
+
+            <!-- Mensagem exibida após o envio -->
+            <p id="mensagem" style="display: none;" aria-live="polite">
+
+
+                Obrigado pelo contato!
+                Sua mensagem foi enviada com sucesso.
+
+
+            </p>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+
+        <p>
+            &copy; 2026 PixelGear eSports Store.
+            Todos os direitos reservados.
+        </p>
+
+
+    </footer>
+
+
+
+
+    <!-- SCRIPT PARA O ENVIO DO FORMULÁRIO -->
+    <script>
+
+
+        const formulario = document.getElementById("formulario-contato");
+
+
+        formulario.addEventListener("submit", function(event) {
+
+
+            // Impede o recarregamento da página
+            event.preventDefault();
+
+
+            // Esconde a área de sugestões e dúvidas
+            document.getElementById("area-formulario").style.display = "none";
+
+
+            // Exibe a mensagem de confirmação
+            document.getElementById("mensagem").style.display = "block";
+
+
+        });
+
+
+    </script>
+
+
+</body>
+
+
+</html>
    
->>>>>>> 463dfb5 (atividade)
     <!-- Rodapé da página -->
     <footer>
         <p>

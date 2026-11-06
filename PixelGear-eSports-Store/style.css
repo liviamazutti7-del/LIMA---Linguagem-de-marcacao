@@ -6,43 +6,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 30px;
     line-height: 1.6;
-<<<<<<< HEAD
 }
 
-=======
     text-align: center;
 
-}
-
-/* Cor normal do botão */
-.botao {
-    background-color: #A855F7;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-/* Cor quando o mouse passa por cima */
-.botao:hover {
-    background-color: #A3E635;
-}
-
-
->>>>>>> 463dfb5 (atividade)
-/* Título principal */
-h1 {
-    color: #A3E635;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 40px;
-}
-
-/* Subtítulos */
-h2, h3, h4 {
-    color: #A855F7;
-    font-family: 'Orbitron', sans-serif;
 }
 
 /* Parágrafos */
@@ -80,8 +47,7 @@ footer {
         font-size: 30px;
     }
 }
-<<<<<<< HEAD
-=======
+
 
 /* Vitrine de produtos */
 .produtos {
@@ -154,4 +120,19 @@ footer {
     }
 }
 
->>>>>>> 463dfb5 (atividade)
+h1 {
+    color: #5add45;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #b44cff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #b44cff;
+    font-family: 'Orbitron', sans-serif;;
+}
